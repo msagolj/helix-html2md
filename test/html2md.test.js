@@ -36,6 +36,10 @@ describe('html2md Tests', () => {
     nock.done();
   });
 
+  it('xwalk', async () => {
+    await test('xwalk');
+  });
+
   it('convert a simple html', async () => {
     await test('simple');
   });
