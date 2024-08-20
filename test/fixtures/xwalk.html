@@ -1,11 +1,88 @@
+
+
+<!DOCTYPE html>
 <html>
-<body>
-<main>
-  <div data-aue-type="container" data-aue-resource="urn:aemconnection:/content/piramalfinance-eds2/nav/jcr:content/root/section_0" data-aue-behavior="component" data-aue-model="section" data-aue-label="Section" data-aue-filter="section">
+
+<head>
+
+    <title>Header</title>
+    <meta property="og:image" content="https://main--piramal--aemsites.hlx.page/default-meta-image.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Header"/>
+<meta name="published-time" content="2024-08-20T16:23:02.833Z"/>
+<meta name="mobilepath" content="/mobile-nav"/>
+<meta property="og:title" content="Header"/>
+<meta name="canonical" content="/content/piramalfinance-eds2/nav.html"/>
+<meta property="og:updated_time" content="2024-08-12T14:33:30.915Z"/>
+<meta name="navpath" content="/nav"/>
+<meta property="og:image:secure_url" content="https://main--piramal--aemsites.hlx.page/default-meta-image.png"/>
+<meta name="twitter:image" content="https://main--piramal--aemsites.hlx.page/default-meta-image.png"/>
+<meta property="og:url" content="/content/piramalfinance-eds2/nav.html"/>
+<meta name="modified-time" content="2024-08-12T14:33:30.915Z"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <meta name="urn:adobe:aue:system:aemconnection" content="xwalk:http://localhost:4502"/>
+    
+    <script type="application/vnd.adobe.aue.component+json" src="/content/piramalfinance-eds2.resource/component-definition.json"></script>
+    <script type="application/vnd.adobe.aue.model+json" src="/content/piramalfinance-eds2.resource/component-models.json"></script>
+    <script type="application/vnd.adobe.aue.filter+json" src="/content/piramalfinance-eds2.resource/component-filters.json"></script>
+    <script src="/content/piramalfinance-eds2.resource/scripts/aem.js" type="module"></script>
+<script src="/content/piramalfinance-eds2.resource/scripts/scripts.js" type="module"></script>
+
+    <script src="/content/piramalfinance-eds2.resource/scripts/editor-support.js" type="module"></script>
+<script src="https://universal-editor-service.experiencecloud.live/corslib/2/LATEST" defer></script>
+
+    <link rel="stylesheet" href="/content/piramalfinance-eds2.resource/styles/styles.css"/>
+
+    <script type="module">
+        (async () => {
+          if ("serviceWorker" in navigator) {
+            try {
+              const basePath = "\/content\/piramalfinance\u002Deds2";
+              const swPath = "\/content\/piramalfinance\u002Deds2.resource\/sw.js";
+              if (swPath && basePath && window.location.pathname.startsWith(basePath)) {
+                // only register service worker if the location is within the controlled base path
+                await navigator.serviceWorker.register(swPath, { scope: basePath });
+                // reload as long as the page is not controlled by the service worker
+                if (!navigator.serviceWorker.controller) window.location.reload();
+              }
+            } catch (error) {
+              console.error(`Registration failed with ${error}`);
+            }
+          }
+        })();
+    </script>
+</head>
+
+<body data-aue-resource="urn:aemconnection:/content/piramalfinance-eds2/nav/jcr:content" data-aue-label="Page" data-aue-model="page-metadata" data-aue-type="component">
+    
+<header></header>
+<main data-aue-type="container" data-aue-resource="urn:aemconnection:/content/piramalfinance-eds2/nav/jcr:content/root" data-aue-label="Main" data-aue-filter="main">
+
+
+<div data-aue-type="container" data-aue-resource="urn:aemconnection:/content/piramalfinance-eds2/nav/jcr:content/root/section" data-aue-behavior="component" data-aue-model="section" data-aue-label="Section" data-aue-filter="section">
+    
+<p data-aue-resource="urn:aemconnection:/content/piramalfinance-eds2/nav/jcr:content/root/section/image" data-aue-type="component" data-aue-model="image" data-aue-label="image" data-aue-behavior="component">
+    <picture>
+        <img src="/content/dam/piramalfinance/header-images/piramal-logo.svg"/>
+    </picture>
+    
+</p>
+
+    
+</div>
+
+<div data-aue-type="container" data-aue-resource="urn:aemconnection:/content/piramalfinance-eds2/nav/jcr:content/root/section_0" data-aue-behavior="component" data-aue-model="section" data-aue-label="Section" data-aue-filter="section">
     
 
     <ul data-richtext-resource="urn:aemconnection:/content/piramalfinance-eds2/nav/jcr:content/root/section_0/text" data-richtext-prop="text" data-richtext-label="Text" data-richtext-filter="text">
-<li>Loan Prooducts<ul><li>Housing Loans<ul><li><a title="Home Loan" href="/home-loan">Home Loan</a></li>
+<li><a title="FREECredit Report" href="https://www.piramalfinance.com/creditreport/user/creditPage?locale=en"><sup>FREE</sup>Credit Report</a></li>
+<li>Loan Prooooducts
+<ul>
+<li><span class="icon icon-home-loan"></span> Housing Loans
+<ul>
+<li><a title="Home Loan" href="/home-loan">Home Loan</a></li>
 <li><a title="Construction Loan" href="/.html">Construction Loan</a></li>
 <li><a title="Renovation Loan" href="/.html">Renovation Loan</a></li>
 <li><a title="Extension Loan" href="/.html">Extension Loan</a></li>
@@ -14,7 +91,7 @@
 <li><a title="Pradhan Mantri Awas Yojana" href="/.html">Pradhan Mantri Awas Yojana</a></li>
 </ul>
 </li>
-<li>Business Loans
+<li><span class="icon icon-business-loan"></span> Business&nbsp; Loans
 <ul>
 <li><a title="Business Loan" href="/.html">Business Loan</a></li>
 <li><a title="Loan Against Property" href="/.html">Loan Against Property</a></li>
@@ -22,14 +99,14 @@
 <li><a title="Working Capital Loan" href="/.html">Working Capital Loan</a></li>
 </ul>
 </li>
-<li>Other Products
+<li><span class="icon icon-other-products"></span> Other Products
 <ul>
 <li><a title="Personal Loan" href="/.html">Personal Loan</a></li>
 <li><a title="Pre-Owned Car Loan" href="/.html">Pre-Owned Car Loan</a></li>
 <li><a title="Group Loan" href="/.html">Group Loan</a></li>
 </ul>
 </li>
-<li>Corporate Financing
+<li><span class="icon icon-corporate-financing"></span> Corporate Financing
 <ul>
 <li><a title="Real Estate Financing" href="/.html">Real Estate Financing</a></li>
 <li><a title="Corporate Finance Group" href="/.html">Corporate Finance Group</a></li>
@@ -105,7 +182,12 @@
 </ul>
 
     
-</div> 
+</div>
+
+
 </main>
+<footer></footer>
+
 </body>
+
 </html>
